@@ -24,6 +24,10 @@ a:hover {
 
 }
 
+.navbar-nav {
+  margin: 0 0 0 auto;
+}
+
 
 
 .right {
@@ -35,8 +39,9 @@ a:hover {
 }
 
 .cover {
-  background: url(img/haikei.png);
+  background: url(img/haikei.jpg);
   background-size: cover;
+
 }
 
 .Portfolio {
@@ -52,7 +57,18 @@ a:hover {
 }
 
 .introduction {
-  position: relative;
+
+  color: #ffa500;
+  /*文字色*/
+  padding: 0.5em 0;
+  /*上下の余白*/
+  border-top: solid 3px #ffaf58;
+  /*上線*/
+  border-bottom: solid 3px #ffaf58;
+  /*下線*/
+  text-align: center;
+
+  /* position: relative;
   display: inline-block;
   font-weight: bold;
   padding: 0.5em 1em;
@@ -64,7 +80,7 @@ a:hover {
   padding: 0.5em 1em;
   background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
   transition: .4s;
-  user-select: none;
+  user-select: none; */
 }
 
 .LP {
@@ -77,8 +93,6 @@ a:hover {
 .fas {
   color: #FA2672;
 }
-
-.skel {}
 
 .createimg {
   width: auto;
@@ -95,4 +109,12 @@ a:hover {
 
 .mylarges {
   font-size: 1.15em;
+}
+
+/* ボタンに関して */
+
+
+.btn {
+  width: 100%;
+  margin-bottom: 10px;
 }
