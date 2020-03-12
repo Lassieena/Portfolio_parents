@@ -28,6 +28,9 @@ a:hover {
   margin: 0 0 0 auto;
 }
 
+.bg {
+  background-color: #FFECCC;
+}
 
 
 .right {
@@ -39,7 +42,7 @@ a:hover {
 }
 
 .cover {
-  background: url(img/haikei.jpg);
+  background: url(img/haikei2.jpg);
   background-size: cover;
 
 }
@@ -58,7 +61,7 @@ a:hover {
 
 .introduction {
 
-  color: #ffa500;
+  color: #FF8F22;
   /*文字色*/
   padding: 0.5em 0;
   /*上下の余白*/
